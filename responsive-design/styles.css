@@ -20,6 +20,13 @@
 }
 .header {
     background-color: #b2d6ff;
+    height: auto;
+    justify-content: inherit;
+    align-items: inherit;
+}
+.photo img {
+    width: 100%;
+    display: block;
 }
 .content {
     background-color: #eaedf0;
@@ -78,4 +85,9 @@
     .content {
         order: 2;
     }
+}
+
+.illustration img {
+    width: 100%;
+    display: block;
 }
